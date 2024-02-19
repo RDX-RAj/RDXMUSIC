@@ -4,7 +4,7 @@ import random
 import requests
 from RDXMUSIC import app 
 
-SUPPORT_CHAT = "ALLTYPECC"
+SUPPORT_CHAT = "https://t.me/+RObRa7kXPIJmMjU1"
 
 @app.on_message(filters.command("wish"))
 async def wish(_, m):
