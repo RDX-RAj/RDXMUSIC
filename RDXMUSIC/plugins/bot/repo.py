@@ -40,7 +40,7 @@ async def start(_, msg):
 
 ],
 [
-              InlineKeyboardButton("ʙᴀɴ ᴀʟʟ, url=f"https://github.com/RDX-RAj/DAXXBANALL"),
+              InlineKeyboardButton("ʙᴀɴ ᴀʟʟ, url=f"https://github.com/RDX-RAj/RDXBANALL"),
               InlineKeyboardButton("︎ꝛᴅꭙ ᴍᴜsɪᴄ", url=f"https://github.com/RDX-RAj/RDXMUSIC"),
               ],
               [
