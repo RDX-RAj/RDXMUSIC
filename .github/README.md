@@ -25,7 +25,7 @@ GO TO [RELOAD.PY](https://github.com/RDX-RAj/RDXMUSIC/blob/Master/RDXMUSIC/plugi
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
 </h3>
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/RDX-RAj/RDXMUSIC"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-green?style=for-the-badge&logo=heroku" width="129" height="35"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/RDX-RAj/RDXMUSIC"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-green?style=for-the-badge&logo=heroku" width="129" height="29"/></a></p>
 
 <p><img width="500" align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=RDX-RAj&show_icons=true&locale=en&layout=compact" alt="RDX-RAj" /></p>
 
