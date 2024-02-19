@@ -32,7 +32,7 @@ async def start(_, msg):
           InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
-          InlineKeyboardButton("ʜᴇʟᴘ", url="https://t.me/HEROKUFREECC"),
+          InlineKeyboardButton("ʜᴇʟᴘ", url="https://t.me/+RObRa7kXPIJmMjU1"),
           InlineKeyboardButton("ᴏᴡɴᴇʀ", user_id="1777270311"),
           ],
                [
@@ -40,27 +40,27 @@ async def start(_, msg):
 
 ],
 [
-              InlineKeyboardButton("ʙᴀɴ ᴀʟʟ, url=f"https://github.com/RDX-RAj/RDXBANALL"),
+              InlineKeyboardButton("ʙᴀɴ ᴀʟʟ", url=f"https://github.com/RDX-RAj/RDXBANALL"),
               InlineKeyboardButton("︎ꝛᴅꭙ ᴍᴜsɪᴄ", url=f"https://github.com/RDX-RAj/RDXMUSIC"),
               ],
               [
-              InlineKeyboardButton("ᴍᴀɴᴀɢᴇᴍᴇɴᴛ", url=f"https://github.com/RDX-RAj/YumikooRobot"),
-InlineKeyboardButton("ᴄʜᴀᴛ ʙᴏᴛ", url=f"https://github.com/RDX-RAj/DAXXCHATBOT"),
+              InlineKeyboardButton("ᴍᴀɴᴀɢᴇᴍᴇɴᴛ", url=f"https://github.com/RDX-RAj/RDXROBOT"),
+InlineKeyboardButton("ᴄʜᴀᴛ ʙᴏᴛ", url=f"https://github.com/RDX-RAj/RDXCHATBOT"),
 ],
 [
-InlineKeyboardButton("sᴛʀɪɴɢ ʙᴏᴛ", url=f"https://github.com/RDX-RAj/DAXXSTRINGBOT"),
-InlineKeyboardButton("ᴄʜᴀᴛɢᴘᴛ", url=f"https://github.com/RDX-RAj/DAXXCHATGPT"),
+InlineKeyboardButton("sᴛʀɪɴɢ ʙᴏᴛ", url=f"https://github.com/RDX-RAj/RDXSTRINGBOT"),
+InlineKeyboardButton("ᴄʜᴀᴛɢᴘᴛ", url=f"https://github.com/RDX-RAj/RDXCHATGPT"),
 ],
 [
               InlineKeyboardButton("ᴠᴘs", url=f"https://github.com/RDX-RAj/Kaali-Linux"),
-              InlineKeyboardButton("ᴍᴏᴠɪᴇ", url=f"https://github.com/RDX-RAj/DAXXMOVIEBOT"),
+              InlineKeyboardButton("ᴍᴏᴠɪᴇ", url=f"https://github.com/RDX-RAj/RDXMOVIEBOT"),
               ],
               [
-              InlineKeyboardButton("sᴛʀɪɴɢ ʜᴀᴄᴋ︎", url=f"https://github.com/RDX-RAj/DAXXSTRINGHACK"),
-InlineKeyboardButton("ɪᴅ ᴄʜᴀᴛ ʙᴏᴛ", url=f"https://github.com/RDX-RAj/DAXXIDCHAT"),
+              InlineKeyboardButton("sᴛʀɪɴɢ ʜᴀᴄᴋ︎", url=f"https://github.com/RDX-RAj/RDXSTRINGHACK"),
+InlineKeyboardButton("ɪᴅ ᴄʜᴀᴛ ʙᴏᴛ", url=f"https://github.com/RDX-RAj/RDXIDCHAT"),
 ],
 [
-InlineKeyboardButton("ᴜsᴇʀʙᴏᴛ", url=f"https://github.com/RDX-RAj/DAXXUSERBOT"),
+InlineKeyboardButton("ᴜsᴇʀʙᴏᴛ", url=f"https://github.com/RDX-RAj/RDXUSERBOT"),
 InlineKeyboardButton("sᴇᴀʀᴄʜ ʙᴏᴛ", url=f"https://github.com/RDX-RAj/SEARCH_BOT"),
 ],
 [
