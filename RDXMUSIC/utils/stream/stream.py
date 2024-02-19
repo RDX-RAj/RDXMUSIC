@@ -11,7 +11,7 @@ from RDXMUSIC.misc import db
 from RDXMUSIC.utils.database import add_active_video_chat, is_active_chat
 from RDXMUSIC.utils.exceptions import AssistantErr
 from RDXMUSIC.utils.inline import aq_markup, close_markup, stream_markup
-from RDXMUSIC.utils.pastebin import DAXXBin
+from RDXMUSIC.utils.pastebin import RDXBin
 from RDXMUSIC.utils.stream.queue import put_queue, put_queue_index
 from RDXMUSIC.utils.thumbnails import get_thumb
 
@@ -116,7 +116,7 @@ async def stream(
         if count == 0:
             return
         else:
-            link = await DAXXBin(msg)
+            link = await RDXBin(msg)
             lines = msg.count("\n")
             if lines >= 17:
                 car = os.linesep.join(msg.split(os.linesep)[:17])
