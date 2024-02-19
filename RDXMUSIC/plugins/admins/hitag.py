@@ -1,4 +1,4 @@
-from RDX import app 
+from RDXMUSIC import app 
 import asyncio
 import random
 from pyrogram import Client, filters
