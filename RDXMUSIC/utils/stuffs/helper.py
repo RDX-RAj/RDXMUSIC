@@ -227,41 +227,7 @@ Example:
 
 ◌ /q r : ᴄʀᴇᴀᴛᴇ ᴀ ǫᴜᴏᴛᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇssᴀɢᴇ ᴡɪᴛʜ ʀᴇᴘʟʏ
 '''
-    HELP_SP = '''» ˹ꝛᴅꭙ s๏ᴜʀᴄє˼
- 
- ✦ ʜᴇʀᴇ ɪꜱ sᴏᴜʀᴄє ᴍєɴᴜ ꜰᴏʀ ꝛᴅꭙ''',   
-    
-    [
-           [
-            InlineKeyboardButton(
-                text="˹sᴜᴘᴘ๏ʀᴛ˼",
-                url="https://t.me/+PtOLQT04ocMzOTJl"),
-            InlineKeyboardButton(
-                text="˹sᴜᴘᴘ๏ʀᴛ˼", 
-                url="https://t.me/+muWyzsc4W9JjNDJl"),],[
-            InlineKeyboardButton(text="˹ᴀᴅᴅ ᴍє ʙᴀʙʏ˼", url=f"https://t.me/{dispatcher.bot.username}?startgroup=true"),],
-        [
-            InlineKeyboardButton(text="˹๏ᴡɴєʀ˼", user_id="1777270311"),
-            InlineKeyboardButton(text="˹ᴜᴘᴅᴀᴛєs˼", url="https://t.me/+m4oVCt2zFhYyMTdl"),
-        ],
-        [
-            InlineKeyboardButton(text="˹Aʙ๏ᴜᴛ ꝛᴅꭙ ˼", url="https://t.me/+okCO84m2hZxjYTE9"),
-            InlineKeyboardButton(text="˹ʏ๏ᴜᴛᴜʙє˼", url="https://www.youtube.com/channel/UCoOmopJ8YVYz9Lm8iHhNYMw"),
-            InlineKeyboardButton(text="˹ꝛᴅꭙ sᴜᴘᴘ๏ꝛᴛs˼", url="https://t.me/+pAWm7GPhFYliOGI1"),
-        ],
-        [
-            InlineKeyboardButton(text="ѕтαтυѕ", url="https://t.me/+BD8IVag4UpU3ODI1"),
-            InlineKeyboardButton(text="˹ɪɴsᴛᴀ˼", url="https://www.instagram.com/vdjrajofficial"),
-            InlineKeyboardButton(text="˹ꝛᴅꭙ вσтѕ˼", url="https://t.me/+KRt7ApiJ5Ek2ZjY1"),
-        ],
-                    [
-                        InlineKeyboardButton(text="ʜᴏᴍє", callback_data="rdx_back"),
-                    ],
-                    ]
-    
-    
-    
-    
+
     
     
     fullpromote = {
