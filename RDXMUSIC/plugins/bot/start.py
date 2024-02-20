@@ -115,6 +115,7 @@ async def start_pm(client, message: Message, _):
             lol.edit_text("💚")
             time.sleep(0.5)
             lol.delete()
+        )
             
         await message.reply_video(
             random.choice(RDX_VID),
