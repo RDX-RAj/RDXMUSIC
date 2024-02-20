@@ -36,7 +36,7 @@ def private_panel(_):
             InlineKeyboardButton(
                 text="˹sᴜᴘᴘ๏ʀᴛ˼", 
                 url="https://t.me/+RObRa7kXPIJmMjU1"),],[
-            InlineKeyboardButton(text="˹sᴜᴍᴍᴏɴ ᴍє ʙᴀʙʏ˼", url=f"https://t.me/{app.username}?startgroup=true"),],
+            InlineKeyboardButton(text="˹sᴜᴍᴍᴏɴ ᴍє ʙᴀʙʏ˼", url=f"https://t.me/{app.username}?startgroup=true",),],
         [
             InlineKeyboardButton(text="˹๏ᴡɴєʀ˼", user_id="1777270311"),
             InlineKeyboardButton(text="˹ᴜᴘᴅᴀᴛєѕ˼", url="https://t.me/+m4oVCt2zFhYyMTdl"),
