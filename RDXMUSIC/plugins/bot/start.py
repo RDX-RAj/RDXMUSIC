@@ -101,11 +101,7 @@ async def start_pm(client, message: Message, _):
                 )
     else:
         out = private_panel(_)
-        await message.reply_video(
-            random.choice(RDX_VID),
-            caption=_["start_2"].format(message.from_user.mention, app.mention),
-            reply_markup=InlineKeyboardMarkup(out),
-        )
+        
             time.sleep(0.5)
             lol.edit_text("💛")
             time.sleep(0.5)
@@ -121,6 +117,11 @@ async def start_pm(client, message: Message, _):
             time.sleep(0.5)
             lol.delete()
             
+        await message.reply_video(
+            random.choice(RDX_VID),
+            caption=_["start_2"].format(message.from_user.mention, app.mention),
+            reply_markup=InlineKeyboardMarkup(out),
+        )
         if await is_on_off(2):
             return await app.send_message(
                 chat_id=config.LOGGER_ID,
