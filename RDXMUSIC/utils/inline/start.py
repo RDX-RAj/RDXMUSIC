@@ -8,9 +8,15 @@ def start_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_1"], url=f"https://t.me/{app.username}?startgroup=true"
+                text="˹sᴜᴍᴍᴏɴ ᴍє ʙᴀʙʏ˼" url=f"https://t.me/{app.username}?startgroup=true"
             ),
-            InlineKeyboardButton(text=_["S_B_2"], url=config.SUPPORT_CHAT),
+            InlineKeyboardButton(text="˹sᴜᴘᴘ๏ʀᴛ˼", url="https://t.me/+PtOLQT04ocMzOTJl"),
+        ],
+        [
+            InlineKeyboardButton(
+                text="˹sᴜᴘᴘ๏ʀᴛ˼",
+                url="https://t.me/+RObRa7kXPIJmMjU1"
+            ),
         ],
     ]
     return buttons
@@ -19,17 +25,26 @@ def start_panel(_):
 def private_panel(_):
     buttons = [
         [
+            
+            InlineKeyboardButton(text= "˹ʜєʟᴘ & ᴄᴍᴅ˼", callback_data="settings_back_helper"
+            ),
+        ],
+        [
             InlineKeyboardButton(
-                text=_["S_B_3"],
-                url=f"https://t.me/{app.username}?startgroup=true",
-            )
+                text="˹sᴜᴘᴘ๏ʀᴛ˼",
+                url="https://t.me/+PtOLQT04ocMzOTJl"),
+            InlineKeyboardButton(
+                text="˹sᴜᴘᴘ๏ʀᴛ˼", 
+                url="https://t.me/+RObRa7kXPIJmMjU1"),],[
+            InlineKeyboardButton(text="˹sᴜᴍᴍᴏɴ ᴍє ʙᴀʙʏ˼", url=f"https://t.me/{app.username}?startgroup=true"),],
+        [
+            InlineKeyboardButton(text="˹๏ᴡɴєʀ˼", user_id="1777270311"),
+            InlineKeyboardButton(text="˹ᴜᴘᴅᴀᴛєѕ˼", url="https://t.me/+m4oVCt2zFhYyMTdl"),
         ],
         [
-            InlineKeyboardButton(text=_["S_B_5"], user_id=config.OWNER_ID),
-            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", callback_data="mplus HELP_SP"),
-        ],
-        [
-            InlineKeyboardButton(text=_["S_B_4"], callback_data="settings_back_helper"),
+            InlineKeyboardButton(text="˹❀˼", url="https://t.me/+okCO84m2hZxjYTE9"),
+            InlineKeyboardButton(text="˹˹ʏᴛ˼", url="https://www.youtube.com/channel/UCoOmopJ8YVYz9Lm8iHhNYMw"),
+            InlineKeyboardButton(text="˹❀˼", url="https://t.me/+pAWm7GPhFYliOGI1"),
         ],
     ]
     return buttons
