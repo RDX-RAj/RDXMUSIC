@@ -101,8 +101,7 @@ async def start_pm(client, message: Message, _):
                 )
     else:
         out = private_panel(_)
-        
-            time.sleep(0.5)
+        await message. reply_text(
             lol.edit_text("💛")
             time.sleep(0.5)
             lol.edit_text("💜")
