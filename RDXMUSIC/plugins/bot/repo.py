@@ -71,7 +71,7 @@ InlineKeyboardButton("ᴄᴄ ʙᴏᴛ", url=f"https://github.com/RDX-RAj/CC_BOT"
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/faa1f3ad7116e33d9f402.jpg",
+        photo="https://telegra.ph/file/c785871bcc715f3b399c4.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
