@@ -16,7 +16,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","ll_RJ29RDX_ll")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "Alexa_1X_Bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Alexa_2X_Bot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME" , "Alexa")
 # ---------------------------------------------------------
