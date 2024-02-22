@@ -8,14 +8,14 @@ def start_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="˹sᴜᴍᴍᴏɴ ᴍє ʙᴀʙʏ˼", url=f"https://t.me/{app.username}?startgroup=true"
+                text="˹sᴜᴍᴍᴏɴ ᴍє˼", url=f"https://t.me/{app.username}?startgroup=true"
             ),
             InlineKeyboardButton(text="˹sᴜᴘᴘ๏ʀᴛ˼", url="https://t.me/+PtOLQT04ocMzOTJl"),
         ],
         [
             InlineKeyboardButton(
-                text="˹sᴜᴘᴘ๏ʀᴛ˼",
-                url="https://t.me/+RObRa7kXPIJmMjU1"
+                text="˹ᴜᴘᴅᴀᴛᴇs˼",
+                url="https://t.me/+m4oVCt2zFhYyMTdl"
             ),
         ],
     ]
