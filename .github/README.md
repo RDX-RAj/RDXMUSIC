@@ -29,7 +29,6 @@ GO TO [RELOAD.PY](https://github.com/RDX-RAj/RDXMUSIC/blob/Master/RDXMUSIC/plugi
 
 <p><img width="500" align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=RDX-RAj&show_icons=true&locale=en&layout=compact" alt="RDX-RAj" /></p>
 
-[![Contributors](https://contrib.rocks/image?repo=RDX-RAj/RDXMUSIC)](https://github.com/RDX-RAj/RDXMUSIC/graphs/contributors)
 
 ### Contact :
 <a href="https://t.me/+RObRa7kXPIJmMjU1"><img title="Telegram" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
