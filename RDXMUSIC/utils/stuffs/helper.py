@@ -236,23 +236,44 @@ Example:
 ◌ /q r : ᴄʀᴇᴀᴛᴇ ᴀ ǫᴜᴏᴛᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇssᴀɢᴇ ᴡɪᴛʜ ʀᴇᴘʟʏ
 '''
 
-    HELP_Foru = '''Exᴛʀᴀ ᴛᴀɢ ᴄᴍᴅs
-
-ᴛʜɪs ɪs ᴛᴀɢs ғᴏʀ ᴜ
-◌ /tagall : ᴛᴀɢᴀʟʟ ᴜsᴇʀ ʙʏ ᴜsᴇʀ ᴡɪᴛʜ ʀᴀɴᴅᴏᴍ ᴍᴇssᴀɢᴇ.
-
-ᴍᴏʀᴇ sᴛᴜғғ:
-◌ /shayari [sʜᴀʏᴀʀɪ ᴡɪᴛʜ ʀᴀɴᴅᴏᴍ sʜᴀʏᴀʀɪ ᴍᴇssᴀɢᴇ.]
-◌ /lovetag [ʟᴏᴠᴇ ᴛᴀɢ ᴡɪᴛʜ ʀᴀɴᴅᴏᴍ ʟᴏᴠᴇ ᴍᴇssᴀɢᴇ.]
-◌ /vctag [ᴠᴄ ᴛᴀɢ ᴡɪᴛʜ ʀᴀɴᴅᴏᴍ ᴠᴄ ɪɴᴠɪᴛᴇ ᴍᴇssᴀɢᴇ.]
-◌ /entag [ᴛᴀɢ ᴡɪᴛʜ ʀᴀɴᴅᴏᴍ ᴇɴɢʟɪsʜ ᴍᴇssᴀɢᴇ.]
-◌ /hitag [ᴛᴀɢ ᴡɪᴛʜ ʀᴀɴᴅᴏᴍ ʜɪɴᴅɪ ᴍᴇssᴀɢᴇ.]
-◌ /sexitag [ᴛᴀɢ ᴡɪᴛʜ ʀᴀɴᴅᴏᴍ sᴇxɪ ᴍᴇssᴀɢᴇ.]
-◌ /galitag [ᴛᴀɢ ᴡɪᴛʜ ʀᴀɴᴅᴏᴍ ɢᴀʟɪ ᴍᴇssᴀɢᴇ.]
-◌ /gftag [ᴛᴀɢ ᴡɪᴛʜ ʀᴀɴᴅᴏᴍ ɢғ ᴍᴇssᴀɢᴇ.]
-◌ /bftag [ᴛᴀɢ ᴡɪᴛʜ ʀᴀɴᴅᴏᴍ ʙғ ᴍᴇssᴀɢᴇ.]
-◌ /emojitag [ᴛᴀɢ ᴡɪᴛʜ ʀᴀɴᴅᴏᴍ ᴇᴍᴏᴊɪ ᴍᴇssᴀɢᴇ.]
-'''    
+    HELP_Foru = ''' ˹ꝛᴅꭙ ѕᴏᴜʀᴄᴇ˼
+    
+    def RDXROBOT_rdx_source_Callback(update: Update, context: CallbackContext):
+    query = update.callback_query
+    if query.data == "rdx_source":
+        query.message.edit_caption(f"""
+ ✦ ʜᴇʀᴇ ɪꜱ sᴏᴜʀᴄє ᴍєɴᴜ ꜰᴏʀ {BOT_NAME}
+""",
+            parse_mode=ParseMode.MARKDOWN,
+            
+            reply_markup=InlineKeyboardMarkup(
+                [
+                    [
+            InlineKeyboardButton(
+                text="˹sᴜᴘᴘ๏ʀᴛ˼",
+                url="https://t.me/+PtOLQT04ocMzOTJl"),
+            InlineKeyboardButton(
+                text="˹sᴜᴘᴘ๏ʀᴛ˼", 
+                url="https://t.me/+muWyzsc4W9JjNDJl"),],[
+            InlineKeyboardButton(text="˹ᴀᴅᴅ ᴍє ʙᴀʙʏ˼", url=f"https://t.me/{dispatcher.bot.username}?startgroup=true"),],
+        [
+            InlineKeyboardButton(text="˹๏ᴡɴєʀ˼", user_id="1777270311"),
+            InlineKeyboardButton(text="˹ᴜᴘᴅᴀᴛєs˼", url="https://t.me/+m4oVCt2zFhYyMTdl"),
+        ],
+        [
+            InlineKeyboardButton(text="◃◃", url="https://t.me/+okCO84m2hZxjYTE9"),
+            InlineKeyboardButton(text="˹ʏ๏ᴜᴛᴜʙє˼", url="https://www.youtube.com/channel/UCoOmopJ8YVYz9Lm8iHhNYMw"),
+            InlineKeyboardButton(text="▹▹", url="https://t.me/+pAWm7GPhFYliOGI1"),
+        ],
+        [
+            InlineKeyboardButton(text="❀", url="https://t.me/+BD8IVag4UpU3ODI1"),
+            InlineKeyboardButton(text="˹ɪɴsᴛᴀ˼", url="https://www.instagram.com/vdjrajofficial"),
+            InlineKeyboardButton(text="❀", url="https://t.me/+KRt7ApiJ5Ek2ZjY1"),
+        ],
+                    [
+                        InlineKeyboardButton(text="ʜᴏᴍє", callback_data="rdx_back"),
+                    ],
+                    ]
     
     fullpromote = {
     'can_change_info': True,
