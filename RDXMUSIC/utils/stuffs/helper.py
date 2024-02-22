@@ -39,6 +39,14 @@ sᴛɪᴄᴋᴇʀs ᴄᴏᴍᴍᴀɴᴅꜱ:
 
 ๏ /utag ➛ ᴀɴʏ ᴡʀɪᴛᴛᴇɴ ᴛᴇxᴛ ᴛᴀɢ sᴛᴏᴘ ⇴ /cancel 
 
+๏ /lovetag ➛ ʀᴀɴᴅᴏᴍ ʟᴏᴠᴇ ᴛᴀɢ sᴛᴏᴘ ⇴ /cancel
+
+๏ /galitag ➛ ʀᴀɴᴅᴏᴍ ɢᴀʟɪ ᴛᴀɢ sᴛᴏᴘ ⇴ /cancel
+
+๏ /gftag ➛ ʀᴀɴᴅᴏᴍ ɢƒ ᴛᴀɢ sᴛᴏᴘ ⇴ /cancel
+
+๏ /bftag ➛ ʀᴀɴᴅᴏᴍ Bƒ ᴛᴀɢ sᴛᴏᴘ ⇴ /cancel
+
 ๏ /vctag ➛ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ɪɴᴠɪᴛᴇ ᴛᴀɢ sᴛᴏᴘ ⇴ /vcstop
 '''
 
