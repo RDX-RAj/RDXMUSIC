@@ -39,3 +39,24 @@ def supp_markup(_):
         ]
     )
     return upl
+
+
+def cmds_markup(_):
+    upl = InlineKeyboardMarkup(
+        [
+            [
+                InlineKeyboardButton(
+                    text="˹ᴍᴜsɪᴄ˼",
+                    callback_data="help_callback"
+                ),
+                InlineKeyboardButton(
+                    text="˹ᴍᴀɴᴀɢᴇᴍᴇɴᴛ˼",
+                    callback_data="mbot_cb"),][
+                InlineKeyboardButton(
+                    text="˹sᴘᴇᴄɪᴀʟ ᴛᴀɢᴇʀ˼",
+                    k_data="mplus HELP_TagAll"),
+            ]
+        ]
+    )
+    return upl
+
