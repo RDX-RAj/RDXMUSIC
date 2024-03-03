@@ -26,6 +26,29 @@ def private_panel(_):
     buttons = [
         [
             
+            InlineKeyboardButton(text= "˹ʜєʟᴘ & ᴄᴍᴅ˼", callback_data="cmd_panel"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="˹sᴜᴘᴘ๏ʀᴛ˼",
+                url="https://t.me/+PtOLQT04ocMzOTJl"),
+            InlineKeyboardButton(
+                text="˹sᴜᴘᴘ๏ʀᴛ˼", 
+                url="https://t.me/+RObRa7kXPIJmMjU1"),],[
+            InlineKeyboardButton(text="˹sᴜᴍᴍᴏɴ ᴍє ʙᴀʙʏ˼", url=f"https://t.me/{app.username}?startgroup=true",),],
+        [
+            InlineKeyboardButton(text="˹๏ᴡɴєʀ˼", user_id="1777270311"),
+            InlineKeyboardButton(text="˹ᴜᴘᴅᴀᴛєѕ˼", url="https://t.me/+m4oVCt2zFhYyMTdl"),
+        ],
+    ]
+    return buttons
+
+
+def cmd_panel(_):
+    buttons = [
+        [
+            
             InlineKeyboardButton(text= "˹ʜєʟᴘ & ᴄᴍᴅ˼", callback_data="cmds_markup"
             ),
         ],
@@ -43,3 +66,4 @@ def private_panel(_):
         ],
     ]
     return buttons
+
