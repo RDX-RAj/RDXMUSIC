@@ -2,7 +2,7 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from RDXMUSIC import app
-from RDXMUSIC.core.call import RDXMUSIC
+from RDXMUSIC.core.call import RDX
 from RDXMUSIC.utils import bot_sys_stats
 from RDXMUSIC.utils.decorators.language import language
 from RDXMUSIC.utils.inline import supp_markup
