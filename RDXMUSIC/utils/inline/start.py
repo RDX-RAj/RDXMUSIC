@@ -26,7 +26,7 @@ def private_panel(_):
     buttons = [
         [
             
-            InlineKeyboardButton(text= "˹ʜєʟᴘ & ᴄᴍᴅ˼", callback_data="CMDPANEL1"
+            InlineKeyboardButton(text= "˹ʜєʟᴘ & ᴄᴍᴅ˼", callback_data="setting_back_helper"
             ),
         ],
         [
@@ -69,19 +69,3 @@ def cmd_panel(_):
 
 
 
-CMDPANEL1 = InlineKeyboardMarkup(
-        [
-            [
-                InlineKeyboardButton(
-                    text="˹ᴍᴜsɪᴄ˼",
-                    callback_data="help_callback"
-                ),
-                InlineKeyboardButton(
-                    text="˹ᴍᴀɴᴀɢᴇᴍᴇɴᴛ˼",
-                    callback_data="mbot_cb"),][
-                InlineKeyboardButton(
-                    text="˹sᴘᴇᴄɪᴀʟ ᴛᴀɢᴇʀ˼",
-                    k_data="mplus HELP_TagAll"),
-            ]
-        ]
-)
