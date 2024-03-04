@@ -26,7 +26,7 @@ def private_panel(_):
     buttons = [
         [
             
-            InlineKeyboardButton(text= "˹ʜєʟᴘ & ᴄᴍᴅ˼", callback_data="supp_markup"
+            InlineKeyboardButton(text= "˹ʜєʟᴘ & ᴄᴍᴅ˼", callback_data="setting_back_helper"
             ),
         ],
         [
