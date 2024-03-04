@@ -49,7 +49,7 @@ def cmd_panel(_):
     buttons = [
         [
             
-            InlineKeyboardButton(text= "˹ʜєʟᴘ & ᴄᴍᴅ˼", callback_data="cmds_markup"
+            InlineKeyboardButton(text= "˹ʜєʟᴘ & ᴄᴍᴅ˼", callback_data="CMDPANEL1"
             ),
         ],
         [
@@ -67,3 +67,22 @@ def cmd_panel(_):
     ]
     return buttons
 
+
+
+CMDPANEL1 = InlineKeyboardMarkup(
+        [
+            [
+                InlineKeyboardButton(
+                    text="˹ᴍᴜsɪᴄ˼",
+                    callback_data="help_callback"
+                ),
+                InlineKeyboardButton(
+                    text="˹ᴍᴀɴᴀɢᴇᴍᴇɴᴛ˼",
+                    callback_data="mbot_cb"),][
+                InlineKeyboardButton(
+                    text="˹sᴘᴇᴄɪᴀʟ ᴛᴀɢᴇʀ˼",
+                    k_data="mplus HELP_TagAll"),
+            ]
+        ]
+    )
+    return upl
